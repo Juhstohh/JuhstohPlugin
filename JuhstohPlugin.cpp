@@ -86,7 +86,6 @@ void JuhstohPlugin::ballOnTop() {
 	float ballRadius = ball.GetRadius();
 	ball.SetLocation(carLocation + Vector{ 0, 0, ballRadius });
 
-	cvarManager->registerCvar("JuhstohEnabled", "");
 
 }
 
